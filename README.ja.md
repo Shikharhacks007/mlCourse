@@ -60,7 +60,7 @@ Fashion-MNIST は、機械学習アルゴリズムのベンチマークのため
 あるいはこのレポジトリを clone することもできます、データセットは `data/fashion` の下です。この repo はベンチーマークと可視化のための幾つかのスクリプトを含みます。
    
 ```bash
-git clone git@github.com:zalandoresearch/fashion-mnist.git
+git clone git@github.com:zalandoresearch/fashionmnist.git
 ```
 
 ### ラベル

@@ -62,7 +62,7 @@
 或者，你可以直接克隆这个代码库。数据集就放在`data/fashion`下。这个代码库还包含了一些用于评测和可视化的脚本。
    
 ```bash
-git clone git@github.com:zalandoresearch/fashion-mnist.git
+git clone git@github.com:zalandoresearch/fashionmnist.git
 ```
 
 ### 类别标注

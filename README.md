@@ -57,7 +57,7 @@ You can use direct links to download the dataset. The data is stored in the **sa
 Alternatively, you can clone this GitHub repository; the dataset appears under `data/fashion`. This repo also contains some scripts for benchmark and visualization.
    
 ```bash
-git clone git@github.com:zalandoresearch/fashion-mnist.git
+git clone git@github.com:zalandoresearch/fashionmnist.git
 ```
 
 ### Labels

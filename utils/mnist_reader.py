@@ -2,14 +2,13 @@ def load_mnist(path, kind='train'):
     import os
     import gzip
     import numpy as np
-
     """Load MNIST data from `path`"""
     labels_path = os.path.join(path,
                                '%s-labels-idx1-ubyte.gz'
-                               % kind)
+                               % kind).replace("\\", "/")
     images_path = os.path.join(path,
                                '%s-images-idx3-ubyte.gz'
-                               % kind)
+                               % kind).replace("\\","/")
 
     with gzip.open(labels_path, 'rb') as lbpath:
         labels = np.frombuffer(lbpath.read(), dtype=np.uint8,

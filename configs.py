@@ -1,7 +1,7 @@
 import os
 from random import randint
 
-APP_NAME = '%s-%d' % ('fashion-mnist', randint(0, 100))
+APP_NAME = '%s-%d' % ('fashionmnist', randint(0, 100))
 LOG_FORMAT = '%(asctime)-15s %(filename)s:%(funcName)s:[%(levelname)s] %(message)s'
 JSON_FORMAT = '%(message)s'
 
